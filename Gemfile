@@ -47,6 +47,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-#Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+# Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem "figaro"
+
+# ActiveModel::Serializer implementation and Rails hooks
+gem 'active_model_serializers'
 
